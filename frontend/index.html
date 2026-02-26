@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventra Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Page heading -->
+  <h1>Inventra Dashboard</h1>
+
+  <!-- Navigation bar -->
+  <nav>
+    <a href="index.html" class="active">Dashboard</a>
+    <a href="products.html">Products</a>
+    <a href="sales.html">Sales</a>
+    <button id="logoutBtn">Logout</button>
+  </nav>
+
+  <!-- Dashboard stats -->
+  <div class="stats">
+    <div class="stat-card">
+      <h3>Total Products</h3>
+      <p class="stat" id="totalProducts">0</p>
+    </div>
+
+    <div class="stat-card">
+      <h3>Low Stock</h3>
+      <p class="stat" id="lowStock">0</p>
+    </div>
+
+    <div class="stat-card">
+      <h3>Total Sales</h3>
+      <p class="stat">₱0.00</p>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
